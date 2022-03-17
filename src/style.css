@@ -1,0 +1,29 @@
+*{
+  margin:0;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightpink;
+}
+ .inner{
+   border: 1px solid black;
+   height: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 200px;
+   margin-top: 100px;
+   
+ }
+ 
