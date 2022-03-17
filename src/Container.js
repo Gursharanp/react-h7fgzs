@@ -10,7 +10,7 @@ export default function Container(){
   return(
     <>
     <div className="main">
-    <Header />
+    <Header props={values.name}/>
        <div className="inner">
            <div className="box">
              <input type='text' onChange={(e)=>handleChange(e.target.value)}/>
